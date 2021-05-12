@@ -13,9 +13,6 @@ client.on('message', async message => {
     }
 })
 
-
-})
-
 client.on('ready', () => {
     console.log("bot go")
     client.user.setActivity('filtrer les liens')
